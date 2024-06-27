@@ -1,0 +1,6 @@
+RGB - 128,255,0 - light green
+RGB - 122,208,58 - darker green
+RGB - 179,175,84 - biege
+RGB - 195,198,68 - darker biege
+RGB - 245, 240, 226 - background color1 - whiter biege
+RBG - 255, 240, 220 - background color2 - biege

@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(255, 240, 220);
+    background-image: linear-gradient(to bottom, #FFF0DC 0%, #FFF0E2 100%);
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color:rgb(255, 240,220 );
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(122,208,58);
+    color: black;
+    transition: 0.3s ease;
+}
+#navbar li a:hover{
+    color: rgb(122,208,58);
+}
+#navbar li a:active{
+    color: rgb(122,208,58);
+}
+#logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#shoppingCart{
+    height: 40px;
+    width: 45px;
+}
+#itemImg{
+    height: 300px;
+    width: 300px;
+}
+
+#itemsLineTwo{
+    text-align: center;
+}
+#item{
+    display: flex;
+    padding-top: 20px;
+    text-wrap: wrap;
+}
+#items{
+    text-align: center;
+}
+#items .item{
+    width: 25%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid rgb(128, 255, 0);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.2s ease;
+    margin-top: 20px;
+}
+#items .item:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+#items .item img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+#items .product-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    margin-right: 2px;
+}
+.product-page img{
+    height: 40%;
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+.product-page h2{
+    margin: 0;
+    font: 24px;
+}
+.info{
+    display:list-item;
+    padding: 50px 50px 50px 50px;
+}
+.description{
+    display:inline-block;
+    padding: 50px 50px 50px 75px;
+    font-size: 16px;
+}
+#itemText{
+    font-size: larger;
+}
+.button{
+    background-color: rgb(122,208,58);
+    height: 50px;
+    width: 500px;
+    font-size: larger;
+    
+}
+#buyForm{
+    float: left;
+    margin: 10% 10% 10% 40%;
+}
+#name label{
+    margin: 0 0 50px 0 ;
+}
+#reviewTxtBox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 1000px;
+}
+#reviewLabel{
+    
+    text-align: center;
+}
+#reviewForm{
+    text-align: center;
+}
+
+
+
